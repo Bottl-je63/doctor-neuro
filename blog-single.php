@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre";
+$page_description = "Welcome to the home page of My Website.";
+$page_url = "./blog-single.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
@@ -34,8 +39,7 @@
                   <!-- News Title -->
                   <h1 class="news-title">
                     <a href="404-2.php"
-                      >More than 80 clinical trials launch to test of the
-                      coronavirus .</a
+                      >Bridging Neurology and Psychiatry</a
                     >
                   </h1>
                   <!-- Meta -->
@@ -43,11 +47,11 @@
                     <div class="meta-left">
                       <span class="author"
                         ><a href="#"
-                          ><img src="img/author1.jpg" alt="#" />Naimur Rahman</a
+                          ><img src="img/author1.jpg" alt="#" />Gayatri Tiwari</a
                         ></span
                       >
                       <span class="date"
-                        ><i class="fa fa-clock-o"></i>03 Feb 2019</span
+                        ><i class="fa fa-clock-o"></i>30 Nov 2024</span
                       >
                     </div>
                     <div class="meta-right">
@@ -64,26 +68,11 @@
                   <!-- News Text -->
                   <div class="news-text">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse facilisis ultricies tortor, nec sollicitudin
-                      lorem sagittis vitae. Curabitur rhoncus commodo rutrum.
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Aliquam nec lacus
-                      pulvinar, laoreet dolor quis, pellentesque ante. Cras
-                      nulla orci, pharetra at dictum consequat, pretium pretium
-                      nulla. Suspendisse porttitor nunc a sodales tempor. Mauris
-                      sed felis maximus, interdum metus vel, tincidunt diam.
+                    Neuropsychiatry is an emerging field that bridges the gap between neurology and psychiatry, focusing on disorders that involve both brain function and mental health. In a country like India, where mental health awareness is still evolving, understanding this discipline is crucial.
+
+
                     </p>
-                    <p>
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Aliquam nec lacus
-                      pulvinar, laoreet dolor quis, pellentesque ante. Cras
-                      nulla orci, pharetra at dictum consequat, pretium pretium
-                      nulla. Suspendisse porttitor nunc a sodales tempor. Mauris
-                      sed felis maximus, interdum metus vel, tincidunt diam. Nam
-                      ac risus vitae sem vehicula egestas. Sed velit nulla,
-                      viverra non commod
-                    </p>
+                    
                     <div class="image-gallery">
                       <div class="row">
                         <div class="col-lg-6 col-md-6 col-12">
@@ -98,51 +87,34 @@
                         </div>
                       </div>
                     </div>
+                    <H3>What is Neuropsychiatry?</H3>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse facilisis ultricies tortor, nec sollicitudin
-                      lorem sagittis vitae. Curabitur rhoncus commodo rutrum.
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Aliquam nec lacus
-                      pulvinar, laoreet dolor quis, pellentesque ante. Cras
-                      nulla orci, pharetra at dictum consequat, pretium pretium
-                      nulla. Suspendisse porttitor nunc a sodales tempor. Mauris
-                      sed felis maximus, interdum metus vel, tincidunt diam.
+                    Neuropsychiatry addresses conditions that are rooted in the brain’s structure and function but manifest as mental health symptoms. Examples include epilepsy-related psychosis, traumatic brain injuries, and neurodegenerative diseases.
+
                     </p>
                     <blockquote class="overlay">
                       <p>
-                        Aliquam nec lacus pulvinar, laoreet dolor quis,
-                        pellentesque ante. Cras nulla orci, pharetra at dictum
-                        consequat, pretium pretium nulla. Suspendisse porttitor
-                        nunc a sodales tempor. Mauris sed felis maximus,
-                        interdum metus vel, tincidunt diam. Nam ac risus vitae
-                        sem vehicula egestas. Sed velit nulla, viverra non
-                        commodo et, sodales
+                      <strong>Key Neuropsychiatric Disorders in India: </strong>Conditions like epilepsy, schizophrenia, Parkinson’s disease, and dementia are on the rise, especially with increasing life expectancy.
+
+
+                      </p>
+                      <p><strong>Why Neuropsychiatry Matters:
+                      </strong> With a holistic approach, neuropsychiatrists combine therapies, medications, and counseling to treat complex disorders.
+                      </p>
+                      <p><strong>Case Study:
+                      </strong> Discuss a real-life example of someone who benefited from neuropsychiatric care.
                       </p>
                     </blockquote>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse facilisis ultricies tortor, nec sollicitudin
-                      lorem sagittis vitae. Curabitur rhoncus commodo rutrum.
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Aliquam nec lacus
-                      pulvinar, laoreet dolor quis, pellentesque ante. Cras
-                      nulla orci, pharetra at dictum consequat, pretium pretium
-                      nulla. Suspendisse porttitor nunc a sodales tempor. Mauris
-                      sed felis maximus, interdum metus vel, tincidunt diam. Nam
-                      ac risus vitae sem vehicula egestas. Sed velit nulla,
-                      viverra non commodo et, sodales id dui.
+                      <ul>
+                        <h4>Actionable Takeaways:</h4>
+                        <li>Encourage regular checkups if experiencing unexplained behavioral or cognitive changes.
+                        </li>
+                        <li>Promote awareness about neuropsychiatry through community programs.
+                        </li>
+                      </ul>
                     </p>
-                    <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                      Suspendisse facilisis ultricies tortor, nec sollicitudin
-                      lorem sagittis vitae. Curabitur rhoncus commodo rutrum.
-                      Pellentesque habitant morbi tristique senectus et netus et
-                      malesuada fames ac turpis egestas. Aliquam nec lacus
-                      pulvinar, laoreet dolor quis, pellentesque ante. Cras
-                      nulla orci, pharetra at dictum consequat, pretium pretium
-                      nulla. Suspendisse
-                    </p>
+                    
                   </div>
                   <div class="blog-bottom">
                     <!-- Social Share -->
@@ -192,83 +164,24 @@
                           <img src="img/author1.jpg" alt="#" />
                         </div>
                         <div class="body">
-                          <h4>Afsana Mimi</h4>
+                          <h4>Gayatri Tiwari</h4>
                           <div class="comment-meta">
                             <span class="meta"
-                              ><i class="fa fa-calendar"></i>March 05,
-                              2019</span
+                              ><i class="fa fa-calendar"></i>November 30,
+                              2024</span
                             ><span class="meta"
                               ><i class="fa fa-clock-o"></i>03:38 AM</span
                             >
                           </div>
                           <p>
-                            Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected
-                            humour, or randomised words Mirum est notare quam
-                            littera gothica, quam nunc putamus parum claram,
-                            anteposuerit litterarum formas
+                          It’s amazing to see how neuropsychiatry bridges the gap between brain health and mental well-being. The detailed explanation of common disorders and the emphasis on holistic care is truly enlightening. A must-read for anyone looking to understand this critical field! 👏 #MentalHealthAwareness #Neuropsychiatry
                           </p>
                           <a href="#"><i class="fa fa-reply"></i>replay</a>
                         </div>
                       </div>
                     </div>
                     <!--/ End Single Comments -->
-                    <!-- Single Comments -->
-                    <div class="single-comments left">
-                      <div class="main">
-                        <div class="head">
-                          <img src="img/author2.jpg" alt="#" />
-                        </div>
-                        <div class="body">
-                          <h4>Naimur Rahman</h4>
-                          <div class="comment-meta">
-                            <span class="meta"
-                              ><i class="fa fa-calendar"></i>March 05,
-                              2019</span
-                            ><span class="meta"
-                              ><i class="fa fa-clock-o"></i>03:38 AM</span
-                            >
-                          </div>
-                          <p>
-                            Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected
-                            humour, or randomised words Mirum est notare quam
-                            littera gothica, quam nunc putamus parum claram,
-                            anteposuerit litterarum formas
-                          </p>
-                          <a href="#"><i class="fa fa-reply"></i>replay</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!--/ End Single Comments -->
-                    <!-- Single Comments -->
-                    <div class="single-comments">
-                      <div class="main">
-                        <div class="head">
-                          <img src="img/author3.jpg" alt="#" />
-                        </div>
-                        <div class="body">
-                          <h4>Suriya Molharta</h4>
-                          <div class="comment-meta">
-                            <span class="meta"
-                              ><i class="fa fa-calendar"></i>March 05,
-                              2019</span
-                            ><span class="meta"
-                              ><i class="fa fa-clock-o"></i>03:38 AM</span
-                            >
-                          </div>
-                          <p>
-                            Lorem Ipsum available, but the majority have
-                            suffered alteration in some form, by injected
-                            humour, or randomised words Mirum est notare quam
-                            littera gothica, quam nunc putamus parum claram,
-                            anteposuerit litterarum formas
-                          </p>
-                          <a href="#"><i class="fa fa-reply"></i>replay</a>
-                        </div>
-                      </div>
-                    </div>
-                    <!--/ End Single Comments -->
+                   
                   </div>
                 </div>
               </div>
@@ -276,7 +189,7 @@
                 <div class="comments-form">
                   <h2>Leave Comments</h2>
                   <!-- Contact Form -->
-                  <form class="form" method="post" action="https://drdharmendra.com/mail/mail.php">
+                  <form class="form" method="post" action="https://Disha-html.vercel.app/mail/mail.php">
                     <div class="row">
                       <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group">
@@ -336,113 +249,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-12">
-            <div class="main-sidebar">
-              <!-- Single Widget -->
-              <div class="single-widget search">
-                <div class="form">
-                  <input type="email" placeholder="Search Here..." />
-                  <a class="button" href="#"><i class="fa fa-search"></i></a>
-                </div>
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget category">
-                <h3 class="title">Blog Categories</h3>
-                <ul class="categor-list">
-                  <li><a href="#">Men's Apparel</a></li>
-                  <li><a href="#">Women's Apparel</a></li>
-                  <li><a href="#">Bags Collection</a></li>
-                  <li><a href="#">Accessories</a></li>
-                  <li><a href="#">Sun Glasses</a></li>
-                </ul>
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget recent-post">
-                <h3 class="title">Recent post</h3>
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar1.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5><a href="#">We have annnocuced our new product.</a></h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>Jan 11,
-                        2020
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>35
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar2.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5>
-                      <a href="#">Top five way for solving teeth problems.</a>
-                    </h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>Mar 05,
-                        2019
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>59
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar3.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5>
-                      <a href="#">We provide highly business soliutions.</a>
-                    </h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>June
-                        09, 2019
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>44
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget side-tags">
-                <h3 class="title">Tags</h3>
-                <ul class="tag">
-                  <li><a href="#">business</a></li>
-                  <li><a href="#">wordpress</a></li>
-                  <li><a href="#">html</a></li>
-                  <li><a href="#">multipurpose</a></li>
-                  <li><a href="#">education</a></li>
-                  <li><a href="#">template</a></li>
-                  <li><a href="#">Ecommerce</a></li>
-                </ul>
-              </div>
-              <!--/ End Single Widget -->
-            </div>
+          <?php require_once('main-sidebar.php'); ?>
           </div>
         </div>
       </div>
     </section>
     <!--/ End Single News -->
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

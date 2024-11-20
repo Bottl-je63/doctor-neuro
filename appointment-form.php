@@ -28,23 +28,21 @@
         </div>
         <div class="col-lg-6 col-md-6 col-12">
             <div class="form-group">
-                <select name="doctor" required class="form-control wide">
-                    <option value="" disabled selected>Select Doctor</option>
-                    <option value="Dr. Akther Hossain">Dr. Akther Hossain</option>
-                    <option value="Dr. Dery Alex">Dr. Dery Alex</option>
-                    <option value="Dr. Jovis Karon">Dr. Jovis Karon</option>
+                <select name="appointment_time" required class="form-control wide">
+                    <option value="" disabled selected>Select Appointment Time</option>
+                    <option value="7:00 PM - 11:59 PM">7:00 PM - 11:59 PM</option>
+                    <option value="11:00 AM - 11:59 PM">11:00 AM - 11:59 PM</option>
                 </select>
             </div>
         </div>
         <div class="col-lg-6 col-md-6 col-12">
             <div class="form-group">
                 <input type="date" name="date" placeholder="Date" id="datepicker" required />
-              
             </div>
         </div>
         <div class="col-lg-12 col-md-12 col-12">
             <div class="form-group">
-                <textarea name="message" placeholder="Explain your concern....." required></textarea>
+                <textarea name="message" style="height: 100px" placeholder="Explain your concern....." required></textarea>
             </div>
         </div>
     </div>

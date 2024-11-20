@@ -14,7 +14,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $email = htmlspecialchars($_POST['email']);
     $phone = htmlspecialchars($_POST['phone']);
     $department = htmlspecialchars($_POST['department']);
-    $doctor = htmlspecialchars($_POST['doctor']);
+    $doctor = htmlspecialchars($_POST['appointment_time']);
     $date = htmlspecialchars($_POST['date']);
     $message = htmlspecialchars($_POST['message']);
 
@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                            <b>Email:</b> $email<br>
                            <b>Phone:</b> $phone<br>
                            <b>Department:</b> $department<br>
-                           <b>Doctor:</b> $doctor<br>
+                           <b>Appointment:</b> $doctor<br>
                            <b>Date:</b> $date<br>
                            <b>Message:</b> $message";
 
@@ -74,7 +74,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<h1>Appointment successfully booked!</h1>";
 echo "<script>
     setTimeout(function(){
-        window.location.href = 'http://localhost/doctor/mail-success.php' // Redirect to the current page
+       window.location.href = window.location.origin + '/NEW-DOCTOR/mail-success.php';
     }, 3000);
   </script>";
 

@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre || Time Table";
+$page_description = "Comprehensive assessment and treatment plans to address various mental health concerns.";
+$page_url = "./time-table.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
@@ -175,7 +180,7 @@
             <!-- Start Newsletter Form -->
             <div class="subscribe-form">
               <form
-                action="https://drdharmendra.com/mail/mail.php"
+                action="./admin/subscriber.php"
                 method="get"
                 class="newsletter-inner"
               >
@@ -197,5 +202,4 @@
       </div>
     </section>
     <!-- /End Newsletter Area -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

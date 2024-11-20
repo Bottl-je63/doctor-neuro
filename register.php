@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_url = "./portfolio-details.php";
+$page_image = "./img/bread-bg.jpg";
+$page_url = "./register.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
@@ -35,51 +40,81 @@
                 </p>
                 <!-- Form -->
                 <form class="form" method="post" action="admin/insert_register.php">
-    <div class="row">
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="text" name="first_name" placeholder="First Name" required />
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="text" name="last_name" placeholder="Last Name" required />
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="text" name="phone" placeholder="Phone" required />
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="email" name="email" placeholder="Email" required />
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="password" name="password" placeholder="Password" required />
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="form-group">
-                <input type="password" name="confirm_password" placeholder="Confirm Password" required />
-            </div>
-        </div>
-        <div class="col-12">
-            <div class="form-group login-btn">
-                <button class="btn" type="submit">Register</button>
-            </div>
-            <div class="checkbox">
-                <label class="checkbox-inline" for="news">
-                    <input name="news" id="news" type="checkbox" /> Yes, I agree with all
-                </label>
-            </div>
-            <a href="#" class="terms">Terms & Conditions</a>
-        </div>
-    </div>
-</form>
-
+                  <div class="row">
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="First Name"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Last Name"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Phone"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="password"
+                          name="password"
+                          placeholder="Password"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-lg-6">
+                      <div class="form-group">
+                        <input
+                          type="password"
+                          name="password"
+                          placeholder="Confirm Password"
+                          required=""
+                        />
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-group login-btn">
+                        <button class="btn" type="submit">Login</button>
+                      </div>
+                      <div class="checkbox">
+                        <label class="checkbox-inline" for="2"
+                          ><input name="news" id="2" type="checkbox" />Yes, I
+                          agree with all</label
+                        >
+                      </div>
+                      <a href="#" class="terms">Terms & Conditions</a>
+                    </div>
+                  </div>
+                </form>
                 <!--/ End Form -->
               </div>
             </div>
@@ -88,5 +123,4 @@
       </div>
     </section>
     <!--/ End Register -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

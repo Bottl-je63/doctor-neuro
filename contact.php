@@ -1,5 +1,9 @@
-<?php include('header.php'); ?>
-
+<?php 
+$page_title = "Disha Neuropsychiatry Centre";
+$page_description = "Welcome to the home page of My Website.";
+$page_url = "./contact.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
       <div class="container">
@@ -30,7 +34,7 @@
                 <div id="myMap">
                   <iframe
                     id="gmap_canvas"
-                    src="https://maps.google.com/maps?q=new%20york&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14027.024996078479!2d77.3133642!3d28.4868865!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce71911e293a5%3A0x81f1ef5773979cb!2sDisha%20Neuropsychiatry%20Centre!5e0!3m2!1sen!2sin!4v1731665045942!5m2!1sen!2sin"
                   ></iframe>
                 </div>
                 <!--/End Google-map -->
@@ -95,17 +99,15 @@
                       </div>
                     </div>
                     <div class="col-12">
-                    <div class="checkbox-cst">
-                        <label class="checkbox-inline" for="2" style="display:flex;"
-                          ><input name="news" id="2" type="checkbox" value="Do you
-                          want to subscribe our Newsletter ?" />Do you
-                          want to subscribe our Newsletter ?</label
-                        >
-                      </div>
                       <div class="form-group login-btn">
                         <button class="btn" type="submit">Send</button>
                       </div>
-                      
+                      <div class="checkbox">
+                        <label class="checkbox-inline" for="2"
+                          ><input name="news" id="2" type="checkbox" />Do you
+                          want to subscribe our Newsletter ?</label
+                        >
+                      </div>
                     </div>
                   </div>
                 </form>
@@ -121,8 +123,8 @@
               <div class="single-info">
                 <i class="icofont icofont-ui-call"></i>
                 <div class="content">
-                  <h3>+(000) 1234 56789</h3>
-                  <p>info@company.com</p>
+                  <h3>+91- 084210 25285</h3>
+                  <p>dsingh66@gmail.com</p>
                 </div>
               </div>
             </div>
@@ -132,8 +134,9 @@
               <div class="single-info">
                 <i class="icofont-google-map"></i>
                 <div class="content">
-                  <h3>2 Fir e Brigade Road</h3>
-                  <p>Chittagonj, Lakshmipur</p>
+                  <h3> F, C, R Park, F1204,</h3>
+                  <p> Near Market 2 Block, </p>
+                  <p>New Delhi, Delhi 110019</p>
                 </div>
               </div>
             </div>
@@ -143,8 +146,8 @@
               <div class="single-info">
                 <i class="icofont icofont-wall-clock"></i>
                 <div class="content">
-                  <h3>Mon - Sat: 8am - 5pm</h3>
-                  <p>Sunday Closed</p>
+                  <h3>Mon - Sat: 9am - 10pm</h3>
+                  <p>Holiday Occationally</p>
                 </div>
               </div>
             </div>
@@ -154,5 +157,4 @@
       </div>
     </section>
     <!--/ End Contact Us -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre || Mail Success";
+$page_description = "Your Mail Sent Successfully!";
+$page_url = "./mail-success.php";
+$page_image = "./img/slider2.jpg";
+require('head.php'); ?>
 
     <!-- Mail Success Page -->
     <section class="mail-seccess section">
@@ -12,9 +17,7 @@
                 ><span>Your Mail Sent Successfully!</span>
               </h1>
               <p>
-                Aenean eget sollicitudin lorem, et pretium felis. Nullam euismod
-                diam libero, sed dapibus leo laoreet ut. Suspendisse potenti.
-                Phasellus urna lacus
+              Thank you for getting in touch with us! Your message has been successfully sent. We’ll respond to your inquiry as soon as possible. If you need immediate assistance, feel free to contact us at our helpline.
               </p>
               <a href="index.php" class="btn">Go Home</a>
             </div>
@@ -24,5 +27,4 @@
       </div>
     </section>
     <!--/ End Mail Success -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

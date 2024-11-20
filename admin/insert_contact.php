@@ -51,7 +51,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             echo "<p>Your message has been successfully sent. We will get back to you shortly.</p>";
             echo "<script>
                 setTimeout(function(){
-                    window.location.href = 'http://yourwebsite.com';
+                    window.location.href = window.location.origin + '/NEW-DOCTOR/mail-success.php';
                 }, 3000); // Redirect after 3 seconds
             </script>";
         } catch (Exception $e) {

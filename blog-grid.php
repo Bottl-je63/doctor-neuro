@@ -1,5 +1,9 @@
-<?php include('header.php'); ?>
-
+<?php 
+$page_title = "Disha Neuropsychiatry Centre";
+$page_description = "Welcome to the home page of My Website.";
+$page_url = "./blog-grid.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
       <div class="container">
@@ -33,16 +37,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">22 Aug, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >We have annnocuced our new product.</a
+                          >Bridging Neurology and Psychiatry</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      Neuropsychiatry is an emerging field that bridges the gap between neurology and psychiatry, focusing on disorders that involve both brain function and mental health.
                       </p>
                     </div>
                   </div>
@@ -57,16 +59,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">15 Jul, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >Top five way for solving teeth problems.</a
+                          >Breaking Stigma and Myths</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      Despite advancements, mental health remains a taboo subject in India. Many still believe that mental disorders are a result of weak willpower or bad karma.
                       </p>
                     </div>
                   </div>
@@ -81,16 +81,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">05 Jan, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >We provide highly business soliutions.</a
+                          >Recognizing Early Signs of Neuropsychiatric Disorders</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      Early detection can prevent severe complications in neuropsychiatric conditions. Yet, many people fail to recognize the signs, mistaking them for stress or aging.
                       </p>
                     </div>
                   </div>
@@ -105,16 +103,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">05 Jan, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >We provide highly business soliutions.</a
+                          >The Impact of Stress on Brain Health</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      Chronic stress is often dismissed as a normal part of life in India. However, prolonged stress can lead to serious neuropsychiatric issues, including anxiety.
                       </p>
                     </div>
                   </div>
@@ -129,16 +125,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">22 Aug, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >We have annnocuced our new product.</a
+                          >Indian Perspectives</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      India has a rich tradition of holistic healing through Ayurveda, yoga, and meditation. Combining these with neuropsychiatry can offer a comprehensive
                       </p>
                     </div>
                   </div>
@@ -153,16 +147,14 @@
                   </div>
                   <div class="news-body">
                     <div class="news-content">
-                      <div class="date">15 Jul, 2020</div>
+                      <div class="date">01 Dec 2024</div>
                       <h2>
                         <a href="blog-single.php"
-                          >Top five way for solving teeth problems.</a
+                          >Advancements in India</a
                         >
                       </h2>
                       <p class="text">
-                        Lorem ipsum dolor a sit ameti, consectetur adipisicing
-                        elit, sed do eiusmod tempor incididunt sed do incididunt
-                        sed.
+                      The intersection of technology and neuropsychiatry has opened new doors for diagnosis and treatment, making mental healthcare more accessible in India.
                       </p>
                     </div>
                   </div>
@@ -189,112 +181,10 @@
             </div>
           </div>
           <div class="col-lg-4 col-12">
-            <div class="main-sidebar">
-              <!-- Single Widget -->
-              <div class="single-widget search">
-                <div class="form">
-                  <input type="email" placeholder="Search Here..." />
-                  <a class="button" href="#"><i class="fa fa-search"></i></a>
-                </div>
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget category">
-                <h3 class="title">Blog Categories</h3>
-                <ul class="categor-list">
-                  <li><a href="#">Men's Apparel</a></li>
-                  <li><a href="#">Women's Apparel</a></li>
-                  <li><a href="#">Bags Collection</a></li>
-                  <li><a href="#">Accessories</a></li>
-                  <li><a href="#">Sun Glasses</a></li>
-                </ul>
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget recent-post">
-                <h3 class="title">Recent post</h3>
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar1.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5><a href="#">We have annnocuced our new product.</a></h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>Jan 11,
-                        2020
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>35
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar2.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5>
-                      <a href="#">Top five way for solving teeth problems.</a>
-                    </h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>Mar 05,
-                        2019
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>59
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-                <!-- Single Post -->
-                <div class="single-post">
-                  <div class="image">
-                    <img src="img/blog-sidebar3.jpg" alt="#" />
-                  </div>
-                  <div class="content">
-                    <h5>
-                      <a href="#">We provide highly business soliutions.</a>
-                    </h5>
-                    <ul class="comment">
-                      <li>
-                        <i class="fa fa-calendar" aria-hidden="true"></i>June
-                        09, 2019
-                      </li>
-                      <li>
-                        <i class="fa fa-commenting-o" aria-hidden="true"></i>44
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <!-- End Single Post -->
-              </div>
-              <!--/ End Single Widget -->
-              <!-- Single Widget -->
-              <div class="single-widget side-tags">
-                <h3 class="title">Tags</h3>
-                <ul class="tag">
-                  <li><a href="#">business</a></li>
-                  <li><a href="#">wordpress</a></li>
-                  <li><a href="#">html</a></li>
-                  <li><a href="#">multipurpose</a></li>
-                  <li><a href="#">education</a></li>
-                  <li><a href="#">template</a></li>
-                  <li><a href="#">Ecommerce</a></li>
-                </ul>
-              </div>
-              <!--/ End Single Widget -->
-            </div>
+            <?php require_once('main-sidebar.php'); ?>
           </div>
         </div>
       </div>
     </section>
     <!--/ End Single News -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

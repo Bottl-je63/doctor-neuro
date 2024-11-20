@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre || Doctor";
+$page_description = "we provide comprehensive care aimed at addressing bipolar disorder and related mental health concerns.";
+$page_url = "./doctors.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
@@ -145,8 +150,7 @@
             <div class="subscribe-text">
               <h6>Sign up for newsletter</h6>
               <p class="">
-                Cu qui soleat partiendo urbanitas. Eum aperiri indoctum eu,<br />
-                homero alterum.
+              Dedicated to enhancing your mental health with care you can trust.
               </p>
             </div>
             <!-- End Newsletter Form -->
@@ -155,7 +159,7 @@
             <!-- Start Newsletter Form -->
             <div class="subscribe-form">
               <form
-                action="https://drdharmendra.com/mail/mail.php"
+                action="./admin/subscriber.php"
                 method="get"
                 class="newsletter-inner"
               >
@@ -177,5 +181,4 @@
       </div>
     </section>
     <!-- /End Newsletter Area -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

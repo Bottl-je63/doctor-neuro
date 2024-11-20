@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre || 404 error";
+$page_description = "404 page not found";
+$page_url = "./404-2.php";
+$page_image = "./img/slider2.jpg";
+require('head.php'); ?>
 
     <!-- Error Page -->
     <section class="error-page section">
@@ -26,5 +31,4 @@
       </div>
     </section>
     <!--/ End Error Page -->
-
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>

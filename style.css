@@ -299,7 +299,7 @@ body {
   padding: 25px 12px;
   position: relative;
   display: inline-block;
-  position: relative;
+
 }
 .header .nav li a::before {
   position: absolute;
@@ -648,6 +648,42 @@ body {
 	End Hero Area CSS
 =============================*/
 
+.card-appointment {
+  display: flex;
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.time-card {
+  background-color: #fff;
+  box-shadow: 4px 4px 10px 0px
+    rgba(132.74999999999997, 132.74999999999997, 132.74999999999997, 0.42);
+  border-radius: 10px;
+  padding: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  border: none;
+}
+
+.my-icon {
+  font-size: 34px;
+  color: #348ee3;
+}
+
+.time-card h3 {
+  font-size: 20px;
+  color: #348ee3;
+  font-weight: 600;
+}
+
+.para {
+  font-size: 16px;
+  color: #7a7a7a;
+  margin-top: 10px;
+}
+
 /*=============================
 	Start Schedule CSS
 ===============================*/
@@ -792,9 +828,7 @@ body {
 /*=============================
 	Start Feautes CSS
 ===============================*/
-.Feautes {
-  padding-top: 0;
-}
+
 .Feautes.index2 {
   padding-top: 100px;
 }
@@ -1032,7 +1066,7 @@ body {
 	Start Call to action CSS
 =================================*/
 .call-action {
-  background-image: url("img/call-bg.jpg");
+  background-image: url("img/call-bg.jpg") !important;
   background-size: cover;
   background-position: center;
   position: relative;
@@ -1090,7 +1124,87 @@ body {
 /*===============================
 	Start Call to action CSS
 =================================*/
+/* new service */
+.section-service {
+  background-color: #f3f8ff;
+  padding-bottom: 60px;
+}
+.services-section {
+  text-align: center;
+  padding: 40px 0;
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.services-header {
+  text-align: left;
+}
+.services-header h1 {
+  font-size: 36px;
+  color: #1d2d50;
+  font-weight: 600;
+}
 
+.services-header h1 span {
+  color: #348ee3;
+}
+
+.services-header p {
+  margin-top: 10px;
+  color: #7f8c8d;
+  font-size: 16px;
+}
+
+.learn-more {
+  background: linear-gradient(90deg, #348ee3, #6dd5ed);
+  border: none;
+  padding: 15px 20px;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 5px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.learn-more:hover {
+  opacity: 0.8;
+}
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 40px;
+  margin-top: 30px;
+}
+
+.service-card {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 7px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.service-icon {
+  font-size: 40px;
+  color: #3498db;
+  margin-bottom: 15px;
+}
+
+.service-card h3 {
+  font-size: 22px;
+  color: #1d2d50;
+  margin-bottom: 10px;
+  font-size: 500;
+}
+
+.service-card p {
+  color: #7f8c8d;
+  font-size: 14px;
+}
+/* end new service */
 /*==========================
 	Start Portfolio CSS
 ============================*/
@@ -1430,7 +1544,7 @@ body {
   border-radius: 3px;
   margin: 0 0 0 -52px;
   margin-top: 49px;
-  box-sizing: ;
+  box-sizing: "";
 }
 .testimonials .owl-dots .owl-dot {
   display: inline-block;
@@ -3324,9 +3438,8 @@ body {
 .contact-us .contact-us-form .checkbox label:hover {
   cursor: pointer;
 }
-.contact-us .contact-us-form .checkbox-cst label input {
-  display: block;
-  margin-right: 10px;
+.contact-us .contact-us-form .checkbox label input {
+  display: none;
 }
 .contact-us .contact-us-form .checkbox label::before {
   position: absolute;
@@ -4606,7 +4719,6 @@ body {
     margin-left: 18px;
     padding-right: 36px;
   }
-
 }
 @media only screen and (max-width: 767px) {
   .rtl .header .top-link,
@@ -4665,6 +4777,29 @@ body {
   .contact-us .contact-us-form .checkbox label::after {
     top: -39px;
   }
+}
+.breadcrumbs1 {
+  text-align: center;
+  padding: 150px 0px;
+  background: url('./img/app.jpg');
+  background-size: cover;
+  overlay: 1;
+  & h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 2rem;
+    color: #f79145;
+  }
+}
+.card-h {
+  transition: all 500ms ease-in-out;
+  margin-bottom: 1.5rem !important;
+}
+
+.card-h:hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  transform: scale(1.05); /* Slightly enlarges the card */
+  border-radius: 10px; /* Rounds the corners when hovered */
 }
 
 /*=========================

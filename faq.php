@@ -1,4 +1,8 @@
-<?php include('header.php'); ?>
+<?php $page_title = "Disha Neuropsychiatry Centre || Faq";
+$page_description = "we provide comprehensive care aimed at addressing bipolar disorder and related mental health concerns.";
+$page_url = "./faq.php";
+$page_image = "./img/bread-bg.jpg";
+require('head.php'); ?>
 
     <!-- Breadcrumbs -->
     <div class="breadcrumbs overlay">
@@ -253,5 +257,4 @@
       </div>
     </section>
     <!-- End Faq -->
-
-    <?php include('footer.php'); ?>
+    <?php require('head.php'); ?>

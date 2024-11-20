@@ -31,7 +31,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         echo "<p>You will be redirected shortly...</p>";
         echo "<script>
             setTimeout(function(){
-                window.location.href = 'http://localhost/doctor/mail-success.php';
+                window.location.href = window.location.origin + '/NEW-DOCTOR/mail-success.php';
             }, 3000); // Redirect after 3 seconds
         </script>";
     } else {

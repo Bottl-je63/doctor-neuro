@@ -1,4 +1,9 @@
-<?php include('header.php'); ?>
+<?php 
+$page_title = "Disha Neuropsychiatry Centre";
+$page_description = "Welcome to the home page of My Website.";
+$page_url = "./404.php";
+$page_image = "./img/slider2.jpg";
+require('head.php'); ?>
 
     <!-- Error Page -->
     <section class="error-page section">
@@ -26,4 +31,4 @@
       </div>
     </section>
     <!--/ End Error Page -->
-    <?php include('footer.php'); ?>
+    <?php require('footer.php'); ?>
