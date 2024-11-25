@@ -1,17 +1,14 @@
 <?php 
-<<<<<<< HEAD
-// Page configuration
-=======
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
+
 $page_title = "Disha Neuropsychiatry Centre";
 $page_description = "Welcome to the home page of My Website.";
 $page_url = "./blog-single.php";
 $page_image = "./img/bread-bg.jpg";
-<<<<<<< HEAD
-
 // Get and decode article data
 $articleData = isset($_GET['article']) ? $_GET['article'] : '';
+
 $article = null;
+
 
 if ($articleData) {
     try {
@@ -75,8 +72,6 @@ if ($articleData) {
     }
 }
 
-=======
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
 require('head.php'); ?>
 
     <!-- Breadcrumbs -->
@@ -99,40 +94,29 @@ require('head.php'); ?>
     <!-- End Breadcrumbs -->
 
     <!-- Single News -->
+   
     <section class="news-single section">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 col-12">
             <div class="row">
               <div class="col-12">
-                <div class="single-main">
-<<<<<<< HEAD
+              <div class="single-main">
                   <?php if ($article): ?>
                   <!-- News Head -->
                   <div class="news-head">
                     <img src="<?php echo htmlspecialchars($article['image'] ?? 'img/blog1.jpg'); ?>" 
                          alt="<?php echo htmlspecialchars($article['title']); ?>"
-                         onerror="this.src='img/blog1.jpg'" />
+                         onerror="this.src='img/blog1.jpg'" 
+                         class="img-fluid" />
                   </div>
                   <!-- News Title -->
                   <h1 class="news-title">
                     <?php echo htmlspecialchars($article['title']); ?>
-=======
-                  <!-- News Head -->
-                  <div class="news-head">
-                    <img src="img/blog1.jpg" alt="#" />
-                  </div>
-                  <!-- News Title -->
-                  <h1 class="news-title">
-                    <a href="404-2.php"
-                      >Bridging Neurology and Psychiatry</a
-                    >
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                   </h1>
                   <!-- Meta -->
                   <div class="meta">
                     <div class="meta-left">
-<<<<<<< HEAD
                       <?php if (!empty($article['author'])): ?>
                       <span class="author">
                         <a href="#">
@@ -147,105 +131,33 @@ require('head.php'); ?>
                       </span>
                     </div>
                     <div class="meta-right">
-                      <span class="views">
-                        <i class="fa fa-eye"></i>Views
-                      </span>
                       <?php if (!empty($article['source'])): ?>
                       <span class="source">
                         <i class="fa fa-globe"></i>
                         <?php echo htmlspecialchars($article['source']); ?>
                       </span>
                       <?php endif; ?>
-=======
-                      <span class="author"
-                        ><a href="#"
-                          ><img src="img/author1.jpg" alt="#" />Gayatri Tiwari</a
-                        ></span
-                      >
-                      <span class="date"
-                        ><i class="fa fa-clock-o"></i>30 Nov 2024</span
-                      >
-                    </div>
-                    <div class="meta-right">
-                      <span class="comments"
-                        ><a href="#"
-                          ><i class="fa fa-comments"></i>05 Comments</a
-                        ></span
-                      >
-                      <span class="views"
-                        ><i class="fa fa-eye"></i>33K Views</span
-                      >
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
+                      <span class="views">
+                        <i class="fa fa-eye"></i>
+                        Views
+                      </span>
                     </div>
                   </div>
                   <!-- News Text -->
                   <div class="news-text">
-<<<<<<< HEAD
-                    <?php echo $article['full_content']; ?>
-                    
-                    <?php if (!empty($article['url'])): ?>
-                    <p class="read-more">
-                      <a href="<?php echo htmlspecialchars($article['url']); ?>" target="_blank" class="btn">
-                        Read Full Article
-                      </a>
-                    </p>
+                    <?php if (!empty($article['full_content'])): ?>
+                      <?php echo $article['full_content']; ?>
+                    <?php else: ?>
+                      <p><?php echo nl2br(htmlspecialchars($article['description'])); ?></p>
                     <?php endif; ?>
-=======
-                    <p>
-                    Neuropsychiatry is an emerging field that bridges the gap between neurology and psychiatry, focusing on disorders that involve both brain function and mental health. In a country like India, where mental health awareness is still evolving, understanding this discipline is crucial.
-
-
-                    </p>
                     
-                    <div class="image-gallery">
-                      <div class="row">
-                        <div class="col-lg-6 col-md-6 col-12">
-                          <div class="single-image">
-                            <img src="img/blog2.jpg" alt="#" />
-                          </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-12">
-                          <div class="single-image">
-                            <img src="img/blog3.jpg" alt="#" />
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <H3>What is Neuropsychiatry?</H3>
-                    <p>
-                    Neuropsychiatry addresses conditions that are rooted in the brain’s structure and function but manifest as mental health symptoms. Examples include epilepsy-related psychosis, traumatic brain injuries, and neurodegenerative diseases.
-
-                    </p>
-                    <blockquote class="overlay">
-                      <p>
-                      <strong>Key Neuropsychiatric Disorders in India: </strong>Conditions like epilepsy, schizophrenia, Parkinson’s disease, and dementia are on the rise, especially with increasing life expectancy.
-
-
-                      </p>
-                      <p><strong>Why Neuropsychiatry Matters:
-                      </strong> With a holistic approach, neuropsychiatrists combine therapies, medications, and counseling to treat complex disorders.
-                      </p>
-                      <p><strong>Case Study:
-                      </strong> Discuss a real-life example of someone who benefited from neuropsychiatric care.
-                      </p>
-                    </blockquote>
-                    <p>
-                      <ul>
-                        <h4>Actionable Takeaways:</h4>
-                        <li>Encourage regular checkups if experiencing unexplained behavioral or cognitive changes.
-                        </li>
-                        <li>Promote awareness about neuropsychiatry through community programs.
-                        </li>
-                      </ul>
-                    </p>
-                    
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
+                   
                   </div>
+                  
+                  <!-- Social Share -->
                   <div class="blog-bottom">
-                    <!-- Social Share -->
                     <ul class="social-share">
                       <li class="facebook">
-<<<<<<< HEAD
                         <a href="https://www.facebook.com/sharer/sharer.php?u=<?php echo urlencode($article['url']); ?>" target="_blank">
                           <i class="fa fa-facebook"></i>
                           <span>Facebook</span>
@@ -262,38 +174,8 @@ require('head.php'); ?>
                           <i class="fa fa-linkedin"></i>
                           <span>LinkedIn</span>
                         </a>
-=======
-                        <a href="#"
-                          ><i class="fa fa-facebook"></i
-                          ><span>Facebook</span></a
-                        >
-                      </li>
-                      <li class="twitter">
-                        <a href="#"
-                          ><i class="fa fa-twitter"></i><span>Twitter</span></a
-                        >
-                      </li>
-                      <li class="google-plus">
-                        <a href="#"><i class="fa fa-google-plus"></i></a>
-                      </li>
-                      <li class="linkedin">
-                        <a href="#"><i class="fa fa-linkedin"></i></a>
-                      </li>
-                      <li class="pinterest">
-                        <a href="#"><i class="fa fa-pinterest"></i></a>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                       </li>
                     </ul>
-                    <!-- Next Prev -->
-                    <ul class="prev-next">
-                      <li class="prev">
-                        <a href="#"><i class="fa fa-angle-double-left"></i></a>
-                      </li>
-                      <li class="next">
-                        <a href="#"><i class="fa fa-angle-double-right"></i></a>
-                      </li>
-                    </ul>
-<<<<<<< HEAD
                   </div>
                   <?php else: ?>
                   <div class="alert alert-warning">
@@ -301,10 +183,6 @@ require('head.php'); ?>
                     <p>Sorry, the requested article could not be found. Please return to the <a href="blog-grid.php">blog page</a>.</p>
                   </div>
                   <?php endif; ?>
-=======
-                    <!--/ End Next Prev -->
-                  </div>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                 </div>
               </div>
               <div class="col-12">
@@ -320,17 +198,6 @@ require('head.php'); ?>
                         <div class="body">
                           <h4>Gayatri Tiwari</h4>
                           <div class="comment-meta">
-<<<<<<< HEAD
-                            <span class="meta">
-                              <i class="fa fa-calendar"></i>November 30, 2024
-                            </span>
-                            <span class="meta">
-                              <i class="fa fa-clock-o"></i>03:38 AM
-                            </span>
-                          </div>
-                          <p>
-                            It's amazing to see how neuropsychiatry bridges the gap between brain health and mental well-being. The detailed explanation of common disorders and the emphasis on holistic care is truly enlightening. A must-read for anyone looking to understand this critical field! #MentalHealthAwareness #Neuropsychiatry
-=======
                             <span class="meta"
                               ><i class="fa fa-calendar"></i>November 30,
                               2024</span
@@ -340,17 +207,13 @@ require('head.php'); ?>
                           </div>
                           <p>
                           It’s amazing to see how neuropsychiatry bridges the gap between brain health and mental well-being. The detailed explanation of common disorders and the emphasis on holistic care is truly enlightening. A must-read for anyone looking to understand this critical field! 👏 #MentalHealthAwareness #Neuropsychiatry
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                           </p>
                           <a href="#"><i class="fa fa-reply"></i>replay</a>
                         </div>
                       </div>
                     </div>
                     <!--/ End Single Comments -->
-<<<<<<< HEAD
-=======
                    
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                   </div>
                 </div>
               </div>
@@ -363,60 +226,44 @@ require('head.php'); ?>
                       <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group">
                           <i class="fa fa-user"></i>
-<<<<<<< HEAD
-                          <input type="text" name="first-name" placeholder="First name" required="required" />
-=======
                           <input
                             type="text"
                             name="first-name"
                             placeholder="First name"
                             required="required"
                           />
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group">
                           <i class="fa fa-envelope"></i>
-<<<<<<< HEAD
-                          <input type="text" name="last-name" placeholder="Last name" required="required" />
-=======
                           <input
                             type="text"
                             name="last-name"
                             placeholder="Last name"
                             required="required"
                           />
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                         </div>
                       </div>
                       <div class="col-lg-4 col-md-4 col-12">
                         <div class="form-group">
                           <i class="fa fa-envelope"></i>
-<<<<<<< HEAD
-                          <input type="email" name="email" placeholder="Your Email" required="required" />
-=======
                           <input
                             type="email"
                             name="email"
                             placeholder="Your Email"
                             required="required"
                           />
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                         </div>
                       </div>
                       <div class="col-12">
                         <div class="form-group message">
                           <i class="fa fa-pencil"></i>
-<<<<<<< HEAD
-                          <textarea name="message" rows="7" placeholder="Type Your Message Here"></textarea>
-=======
                           <textarea
                             name="message"
                             rows="7"
                             placeholder="Type Your Message Here"
                           ></textarea>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                         </div>
                       </div>
                       <div class="col-12">
@@ -434,14 +281,11 @@ require('head.php'); ?>
             </div>
           </div>
           <div class="col-lg-4 col-12">
-<<<<<<< HEAD
-            <?php require_once('main-sidebar.php'); ?>
-=======
           <?php require_once('main-sidebar.php'); ?>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
           </div>
         </div>
       </div>
     </section>
     <!--/ End Single News -->
+
     <?php require('footer.php'); ?>

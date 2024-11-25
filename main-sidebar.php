@@ -1,19 +1,11 @@
 <div class="main-sidebar">
               <!-- Single Widget -->
-<<<<<<< HEAD
               <div class="single-widget">
               <div class="input-group">
   <input type="text" class="form-control p-2" type="text" id="blog-search" placeholder="Search health articles..." autocomplete="off">
   <span class="input-group-text"  id="search-button" title="Search"><i class="fa fa-search"></i></span>
 </div>
-=======
-              <div class="single-widget search">
-                <div class="form">
-                  <input type="email" placeholder="Search Here..." />
-                  <a class="button" href="#"><i class="fa fa-search"></i></a>
-                </div>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
-              </div>
+              
               <!--/ End Single Widget -->
               <!-- Single Widget -->
               <div class="single-widget category">
@@ -107,7 +99,6 @@
                 </ul>
               </div>
               <!--/ End Single Widget -->
-<<<<<<< HEAD
               <script>
               document.addEventListener('DOMContentLoaded', function() {
                   const searchInput = document.getElementById('blog-search');
@@ -151,6 +142,4 @@
                   }
               });
               </script>
-=======
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
             </div>
