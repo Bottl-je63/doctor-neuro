@@ -1,10 +1,10 @@
 <div class="main-sidebar">
               <!-- Single Widget -->
-              <div class="single-widget search">
-                <div class="form">
-                  <input type="email" placeholder="Search Here..." />
-                  <a class="button" href="#"><i class="fa fa-search"></i></a>
-                </div>
+              <div class="single-widget">
+              <div class="input-group">
+  <input type="text" class="form-control p-2" type="text" id="blog-search" placeholder="Search health articles..." autocomplete="off">
+  <span class="input-group-text"  id="search-button" title="Search"><i class="fa fa-search"></i></span>
+</div>
               </div>
               <!--/ End Single Widget -->
               <!-- Single Widget -->
@@ -99,4 +99,47 @@
                 </ul>
               </div>
               <!--/ End Single Widget -->
+              <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                  const searchInput = document.getElementById('blog-search');
+                  const searchButton = document.getElementById('search-button');
+
+                  searchButton.addEventListener('click', function(e) {
+                      e.preventDefault();
+                      performSearch();
+                  });
+
+                  searchInput.addEventListener('keypress', function(e) {
+                      if (e.key === 'Enter') {
+                          e.preventDefault();
+                          performSearch();
+                      }
+                  });
+
+                  // Add loading state
+                  function setLoading(isLoading) {
+                      searchButton.style.pointerEvents = isLoading ? 'none' : 'auto';
+                      searchButton.style.opacity = isLoading ? '0.5' : '1';
+                      searchInput.disabled = isLoading;
+                  }
+
+                  function performSearch() {
+                      const searchTerm = searchInput.value.trim();
+                      if (searchTerm === '') {
+                          searchInput.focus();
+                          return;
+                      }
+
+                      setLoading(true);
+                      window.location.href = `blog-grid.php?search=${encodeURIComponent(searchTerm)}`;
+                  }
+
+                  // Initialize search if URL has search parameter
+                  const urlParams = new URLSearchParams(window.location.search);
+                  const searchParam = urlParams.get('search');
+                  if (searchParam) {
+                      searchInput.value = decodeURIComponent(searchParam);
+                  }
+              });
+              </script>
             </div>
