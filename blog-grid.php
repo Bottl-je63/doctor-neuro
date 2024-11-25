@@ -176,6 +176,5 @@ require('head.php'); ?>
         </div>
       </div>
     </section>
-  
     <!--/ End Single News -->
     <?php require('footer.php'); ?>
