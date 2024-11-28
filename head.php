@@ -68,23 +68,13 @@
    
   </head>
   <body>
-  <!-- <iframe 
-    class="" 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/_4kHxtiuML0?si=F4vnljyqQmvdpUOf&autoplay=1&loop=1&playlist=_4kHxtiuML0&mute=0" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-</iframe> -->
+  
 
 
-  <audio  autoplay loop class="invisible position-absolute">
+  <!-- <audio  autoplay loop class="invisible position-absolute">
     <source src="./img/relaxing-piano.mp3" type="audio/mp3" />
     Your browser does not support the audio element.
-</audio>
+</audio> -->
     <!-- Preloader -->
     <div class="preloader">
       <div class="loader">

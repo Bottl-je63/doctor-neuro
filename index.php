@@ -68,14 +68,9 @@ require('head.php'); ?>
               <div class="col-lg-8">
                 <div class="text">
                   <h1>
-<<<<<<< HEAD
                   Nurture  
                     <span> Your Mind,</span> Elevate Your 
                     <span>Life</span>
-=======
-                    Expert<span> Mental Health</span> Services for Your
-                    <span>Well-Being!</span>
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                   </h1>
                   <p>
                     At Disha Neuropsychiatry Centre, we are dedicated to
@@ -124,13 +119,8 @@ require('head.php'); ?>
             <div class="row">
               <div class="col-lg-8">
                 <div class="text">
-<<<<<<< HEAD
-                  <h1>Comprehensive 
-                    <span> Mental Health</span> Services for Maximum
-=======
                   <h1>
                     Expert<span> Mental Health</span> Services for Your
->>>>>>> 431555010c493e77e2f48b0322d4cae1ae38591e
                     <span>Well-Being!</span>
                   </h1>
                   <p>
