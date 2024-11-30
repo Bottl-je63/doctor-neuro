@@ -164,9 +164,9 @@ require('head.php'); ?>
       </div>
     </section>
     <!--/ End Slider Area -->
-
+    
     <!--/End Start schedule Area -->
-
+    
     <!-- Start Feautes -->
     <section class="Feautes section">
       <div class="container">
@@ -232,7 +232,7 @@ require('head.php'); ?>
       </div>
     </section>
     <!--/ End Feautes -->
-
+    
     <!-- Start Fun-facts -->
     <div id="fun-facts" class="fun-facts section overlay">
       <div class="container">
@@ -285,7 +285,7 @@ require('head.php'); ?>
       </div>
     </div>
     <!--/ End Fun-facts -->
-
+    
     <!-- Start Why choose -->
     <section class="why-choose section">
       <div class="container">
@@ -365,7 +365,7 @@ require('head.php'); ?>
       </div>
     </section>
     <!--/ End Why choose -->
-
+    
     <!-- Start Call to action -->
     <section class="call-action overlay" data-stellar-background-ratio="0.5">
       <div class="container">
@@ -391,7 +391,7 @@ require('head.php'); ?>
       </div>
     </section>
     <!--/ End Call to action -->
-
+    
     <!-- Start portfolio -->
     <section class="portfolio section">
       <div class="container">
@@ -428,14 +428,14 @@ require('head.php'); ?>
                 <img src="img/pf4.jpg" alt="#" />
                 <a href="portfolio-details.php" class="btn">View Details</a>
               </div>
-              
+　　 　 　 　
             </div>
           </div>
         </div>
       </div>
     </section>
     <!--/ End portfolio -->
-
+    
     <!-- new services -->
     <section class="services section">
       <div class="container">
@@ -468,7 +468,7 @@ require('head.php'); ?>
               <div class="col-lg-4 col-md-6 col-12">
                   <!-- Start Single Service -->
                   <div class="single-service">
-                      <i class="icofont icofont-tooth"></i>
+                      <i class="icofont icofont-brain-alt"></i>
                       <h4><a href="./depression-treatment.php">Depression Treatment</a></h4>
                       <p>
                           Expert care for managing and overcoming depression with
@@ -480,7 +480,7 @@ require('head.php'); ?>
               <div class="col-lg-4 col-md-6 col-12">
                   <!-- Start Single Service -->
                   <div class="single-service">
-                      <i class="icofont icofont-heart-alt"></i>
+                      <i class="icofont icofont-brainstorming"></i>
                       <h4><a href="./anxiety-management.php">Anxiety Management</a></h4>
                       <p>
                           Specialized programs to reduce anxiety symptoms and
@@ -493,7 +493,7 @@ require('head.php'); ?>
               <div class="col-lg-4 col-md-6 col-12">
                   <!-- Start Single Service -->
                   <div class="single-service">
-                      <i class="icofont icofont-listening"></i>
+                      <i class="icofont icofont-brain"></i>
                       <h4><a href="./disorder-treatment.php">Bipolar Disorder Treatment</a></h4>
                       <p>
                           Effective strategies to manage mood swings and
@@ -506,7 +506,7 @@ require('head.php'); ?>
               <div class="col-lg-4 col-md-6 col-12">
                   <!-- Start Single Service -->
                   <div class="single-service">
-                      <i class="icofont icofont-eye-alt"></i>
+                      <i class="icofont icofont-dna-alt-1"></i>
                       <h4><a href="./OCD-treatment.php">OCD Treatment</a></h4>
                       <p>
                           Targeted therapies for obsessive-compulsive disorder to improve
@@ -519,7 +519,7 @@ require('head.php'); ?>
               <div class="col-lg-4 col-md-6 col-12">
                   <!-- Start Single Service -->
                   <div class="single-service">
-                      <i class="icofont icofont-blood"></i>
+                      <i class="icofont icofont-autism"></i>
                       <h4><a href="./psychiatry-services.php">Child Psychiatry Services</a></h4>
                       <p>
                           Specialized care for children and adolescents facing
@@ -536,103 +536,7 @@ require('head.php'); ?>
    
    
 
-    <!-- Start Team -->
-    <section
-      id="team"
-      class="team section overlay"
-      data-stellar-background-ratio="0.5"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>We Have Specialist Doctors To Solve Your Problems</h2>
-              <img src="img/section-img2.png" alt="#" />
-              <p>
-                Your well-being is our priority, with tailored treatments for
-                lasting mental health.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-3 col-md-6 col-12" data-tilt>
-            <!-- Single Team -->
-            <div class="single-team">
-              <div class="t-head">
-                <img src="img/team1.jpg" alt="#" />
-                <div class="t-icon">
-                  <a href="appointment.php" class="btn">Get Appointment</a>
-                </div>
-              </div>
-              <div class="t-bottom">
-                <p>Neurosurgeon</p>
-                <h2><a href="doctor-details.php">Collis Molate</a></h2>
-              </div>
-            </div>
-            <!-- End Single Team -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-12" data-tilt>
-            <!-- Single Team -->
-            <div class="single-team">
-              <!-- Team Head -->
-              <div class="t-head">
-                <img src="img/team2.jpg" alt="#" />
-                <div class="t-icon">
-                  <a href="appointment.php" class="btn">Get Appointment</a>
-                </div>
-              </div>
-              <!-- Team Bottom -->
-              <div class="t-bottom">
-                <p>Neurosurgeon</p>
-                <h2><a href="doctor-details.php">Domani Plavon</a></h2>
-              </div>
-              <!--/ End Team Bottom -->
-            </div>
-            <!-- End Single Team -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-12" data-tilt>
-            <!-- Single Team -->
-            <div class="single-team">
-              <!-- Team Head -->
-              <div class="t-head">
-                <img src="img/team3.jpg" alt="#" />
-                <div class="t-icon">
-                  <a href="appointment.php" class="btn">Get Appointment</a>
-                </div>
-              </div>
-              <!-- Team Bottom -->
-              <div class="t-bottom">
-                <p>Dental Surgeon</p>
-                <h2><a href="doctor-details.php">John Mard</a></h2>
-              </div>
-              <!--/ End Team Bottom -->
-            </div>
-            <!-- End Single Team -->
-          </div>
-          <div class="col-lg-3 col-md-6 col-12" data-tilt>
-            <!-- Single Team -->
-            <div class="single-team">
-              <!-- Team Head -->
-              <div class="t-head">
-                <img src="img/team4.jpg" alt="#" />
-                <div class="t-icon">
-                  <a href="appointment.php" class="btn">Get Appointment</a>
-                </div>
-              </div>
-              <!-- Team Bottom -->
-              <div class="t-bottom">
-                <p>Neurosurgeon</p>
-                <h2><a href="doctor-details.php">Amanal Frond</a></h2>
-              </div>
-              <!--/ End Team Bottom -->
-            </div>
-            <!-- End Single Team -->
-          </div>
-        </div>
-      </div>
-    </section>
-    <!--/ End Team -->
+  
 
     <!-- Start Blog Area -->
     <section class="blog section" id="blog">
@@ -650,80 +554,68 @@ require('head.php'); ?>
           </div>
         </div>
         <div class="row">
+          <?php
+          // Enable error reporting for debugging
+          ini_set('display_errors', 1);
+          ini_set('display_startup_errors', 1);
+          error_reporting(E_ALL);
+
+          // Instead of using dynamic API, let's use static blog posts that are relevant to mental health
+          $articles = array(
+              array(
+                  'title' => 'Understanding Depression: Signs, Symptoms, and Treatment Options',
+                  'description' => 'Depression is more than just feeling sad. Learn about the common signs of depression, how it affects daily life, and various treatment approaches available.',
+                  'image' => 'img/blog1.jpg',
+                  'date' => date('d M Y'),
+                  'author' => 'Dr. Singh'
+              ),
+              array(
+                  'title' => 'Anxiety Management: Practical Tips for Daily Life',
+                  'description' => 'Discover effective strategies to manage anxiety, from breathing techniques to lifestyle changes that can help you cope with anxiety symptoms.',
+                  'image' => 'img/blog2.jpg',
+                  'date' => date('d M Y'),
+                  'author' => 'Dr. Singh'
+              ),
+              array(
+                  'title' => 'The Importance of Mental Health in Modern Life',
+                  'description' => 'Explore why mental health is crucial in today\'s fast-paced world and learn about the various ways to maintain good mental well-being.',
+                  'image' => 'img/blog3.jpg',
+                  'date' => date('d M Y'),
+                  'author' => 'Dr. Singh'
+              )
+          );
+
+          foreach($articles as $article) {
+          ?>
           <div class="col-lg-4 col-md-6 col-12">
             <!-- Single Blog -->
             <div class="single-news">
               <div class="news-head">
-                <img src="img/blog1.jpg" alt="#" />
+                <img src="<?php echo htmlspecialchars($article['image']); ?>" 
+                     alt="<?php echo htmlspecialchars($article['title']); ?>" />
               </div>
               <div class="news-body">
                 <div class="news-content">
-                  <div class="date">Disha</div>
+                  <div class="date"><?php echo htmlspecialchars($article['date']); ?> | <?php echo htmlspecialchars($article['author']); ?></div>
                   <h2>
-                    <a href="blog-single.php"
-                      >We have annnocuced our new product.</a
-                    >
+                    <a href="blog-single.php">
+                        <?php echo htmlspecialchars($article['title']); ?>
+                    </a>
                   </h2>
-                  <p class="text">
-                    Supporting your journey to better mental health with
-                    comprehensive, expert care.
-                  </p>
+                  <p class="text"><?php echo htmlspecialchars($article['description']); ?></p>
                 </div>
               </div>
             </div>
             <!-- End Single Blog -->
           </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Single Blog -->
-            <div class="single-news">
-              <div class="news-head">
-                <img src="img/blog2.jpg" alt="#" />
-              </div>
-              <div class="news-body">
-                <div class="news-content">
-                  <div class="date">Disha</div>
-                  <h2>
-                    <a href="blog-single.php"
-                      >Top five way for solving teeth problems.</a
-                    >
-                  </h2>
-                  <p class="text">
-                    Focused on providing compassionate, individualized care for
-                    your mental wellness.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Blog -->
-          </div>
-          <div class="col-lg-4 col-md-6 col-12">
-            <!-- Single Blog -->
-            <div class="single-news">
-              <div class="news-head">
-                <img src="img/blog3.jpg" alt="#" />
-              </div>
-              <div class="news-body">
-                <div class="news-content">
-                  <div class="date">Disha</div>
-                  <h2>
-                    <a href="blog-single.php"
-                      >We provide highly business soliutions.</a
-                    >
-                  </h2>
-                  <p class="text">
-                    Focused on providing compassionate, individualized care for
-                    your mental wellness.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- End Single Blog -->
-          </div>
+          <?php 
+          }
+          ?>
         </div>
       </div>
     </section>
     <!-- End Blog Area -->
-
+    
     <!-- Start clients -->
     <div class="clients overlay">
       <div class="container">
@@ -763,7 +655,7 @@ require('head.php'); ?>
       </div>
     </div>
     <!--/Ens clients -->
-
+    
     <!-- Start Appointment -->
     <section class="appointment">
       <div class="container">
@@ -792,7 +684,7 @@ require('head.php'); ?>
       </div>
     </section>
     <!-- End Appointment -->
-
+    
     <!-- Start Newsletter Area -->
     <section class="newsletter section">
       <div class="container">

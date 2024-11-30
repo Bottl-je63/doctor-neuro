@@ -70,12 +70,6 @@
   <body>
   
 
-
-  <!-- <audio  autoplay loop class="invisible position-absolute">
-    <source src="./img/relaxing-piano.mp3" type="audio/mp3" />
-    Your browser does not support the audio element.
-</audio> -->
-    <!-- Preloader -->
     <div class="preloader">
       <div class="loader">
         <div class="loader-outter"></div>
@@ -152,9 +146,9 @@
                         <a href="index.php">Home </a>
                       </li>
                       <li><a href="about.php">About Us</a></li>
-                      <li><a href="doctors.php">Doctor</a></li>
-                       
                       <li><a href="service.php">Service</a></li>
+                      
+                      <li><a href="doctor-details.php">Dental</a></li>
                        
                       <li><a href="blog-grid.php">Blog Grid</a></li>
                        

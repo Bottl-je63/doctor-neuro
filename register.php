@@ -45,7 +45,7 @@ require('head.php'); ?>
                       <div class="form-group">
                         <input
                           type="text"
-                          name="name"
+                          name="first_name"
                           placeholder="First Name"
                           required=""
                         />
@@ -55,7 +55,7 @@ require('head.php'); ?>
                       <div class="form-group">
                         <input
                           type="text"
-                          name="name"
+                          name="last_name"
                           placeholder="Last Name"
                           required=""
                         />
@@ -64,8 +64,8 @@ require('head.php'); ?>
                     <div class="col-lg-6">
                       <div class="form-group">
                         <input
-                          type="email"
-                          name="email"
+                          type="tel"
+                          name="phone"
                           placeholder="Phone"
                           required=""
                         />
@@ -95,7 +95,7 @@ require('head.php'); ?>
                       <div class="form-group">
                         <input
                           type="password"
-                          name="password"
+                          name="confirm_password"
                           placeholder="Confirm Password"
                           required=""
                         />

@@ -28,84 +28,84 @@ require('head.php'); ?>
 <section class="services section">
     <div class="container">
 
-        <div class="row">
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-prescription"></i>
-                    <h4><a href="./psychiatric-care.php">General Psychiatric Care</a></h4>
-                    <p>
-                        Comprehensive assessment and treatment plans to
-                        address various mental health concerns.
-                    </p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-tooth"></i>
-                    <h4><a href="./depression-treatment.php">Depression Treatment</a></h4>
-                    <p>
-                        Expert care for managing and overcoming depression with
-                        personalised therapy and medication plans
-                    </p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-heart-alt"></i>
-                    <h4><a href="./anxiety-management.php">Anxiety Management</a></h4>
-                    <p>
-                        Specialized programs to reduce anxiety symptoms and
-                        improve overall mental well-being.
-
-                    </p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-listening"></i>
-                    <h4><a href="./disorder-treatment.php">Bipolar Disorder Treatment</a></h4>
-                    <p>
-                        Effective strategies to manage mood swings and
-                        stabilise emotional health.
-
-                    </p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-eye-alt"></i>
-                    <h4><a href="./OCD-treatment.php">OCD Treatment</a></h4>
-                    <p>
-                        Targeted therapies for obsessive-compulsive disorder to improve
-                        daily functioning and quality of life.
-
-                    </p>
-                </div>
-                <!-- End Single Service -->
-            </div>
-            <div class="col-lg-4 col-md-6 col-12">
-                <!-- Start Single Service -->
-                <div class="single-service">
-                    <i class="icofont icofont-blood"></i>
-                    <h4><a href="./psychiatry-services.php">Child Psychiatry Services</a></h4>
-                    <p>
-                        Specialized care for children and adolescents facing
-                        psychiatric challenges, including academic counselling.
-
-                    </p>
-                </div>
-
-            </div>
-        </div>
+    <div class="row">
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-prescription"></i>
+                      <h4><a href="./psychiatric-care.php">General Psychiatric Care</a></h4>
+                      <p>
+                          Comprehensive assessment and treatment plans to
+                          address various mental health concerns.
+                      </p>
+                  </div>
+                  <!-- End Single Service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-brain-alt"></i>
+                      <h4><a href="./depression-treatment.php">Depression Treatment</a></h4>
+                      <p>
+                          Expert care for managing and overcoming depression with
+                          personalised therapy and medication plans
+                      </p>
+                  </div>
+                  <!-- End Single Service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-brainstorming"></i>
+                      <h4><a href="./anxiety-management.php">Anxiety Management</a></h4>
+                      <p>
+                          Specialized programs to reduce anxiety symptoms and
+                          improve overall mental well-being.
+  
+                      </p>
+                  </div>
+                  <!-- End Single Service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-brain"></i>
+                      <h4><a href="./disorder-treatment.php">Bipolar Disorder Treatment</a></h4>
+                      <p>
+                          Effective strategies to manage mood swings and
+                          stabilise emotional health.
+  
+                      </p>
+                  </div>
+                  <!-- End Single Service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-dna-alt-1"></i>
+                      <h4><a href="./OCD-treatment.php">OCD Treatment</a></h4>
+                      <p>
+                          Targeted therapies for obsessive-compulsive disorder to improve
+                          daily functioning and quality of life.
+  
+                      </p>
+                  </div>
+                  <!-- End Single Service -->
+              </div>
+              <div class="col-lg-4 col-md-6 col-12">
+                  <!-- Start Single Service -->
+                  <div class="single-service">
+                      <i class="icofont icofont-autism"></i>
+                      <h4><a href="./psychiatry-services.php">Child Psychiatry Services</a></h4>
+                      <p>
+                          Specialized care for children and adolescents facing
+                          psychiatric challenges, including academic counselling.
+  
+                      </p>
+                  </div>
+  
+              </div>
+          </div>
     </div>
 </section>
 <!--/ End service -->

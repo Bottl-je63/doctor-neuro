@@ -55,12 +55,7 @@
                           >Services</a
                         >
                       </li>
-                      <li>
-                        <a href="./doctor.php"
-                          ><i class="fa fa-caret-right" aria-hidden="true"></i
-                          >Doctor</a
-                        >
-                      </li>
+                      
                       <li>
                         <a href="./contact.php"
                           ><i class="fa fa-caret-right" aria-hidden="true"></i

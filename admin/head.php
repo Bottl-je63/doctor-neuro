@@ -1,19 +1,76 @@
+<?php 
+if(!isset($_SESSION["username"]))
+{
+ 
+ header("Location: ../login.php");
+}
+?>
 <!DOCTYPE html>
 <html lang="zxx">
-    <!-- Added by HTTrack --><meta
-    http-equiv="content-type"
-    content="text/html;charset=utf-8"
-  /><!-- /Added by HTTrack -->
-  <head>
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+<style>
+    :root {
+        --primary-color: #2462;
+        --secondary-color: #262626;
+    }
+
+    .dashboard-stats {
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 20px;
+    }
+
+    .stats-card {
+        text-align: center;
+        padding: 20px;
+        border-radius: 8px;
+        color: white;
+        margin-bottom: 15px;
+    }
+
+    .bg-gradient-primary {
+        background: linear-gradient(45deg, #4e73df, #224abe);
+    }
+
+    .bg-gradient-success {
+        background: linear-gradient(45deg, #1cc88a, #13855c);
+    }
+
+    .bg-gradient-info {
+        background: linear-gradient(45deg, #36b9cc, #258391);
+    }
+
+    .bg-gradient-warning {
+        background: linear-gradient(45deg, #f6c23e, #dda20a);
+    }
+
+    .sidebar {
+        min-height: 100vh;
+        background: #4e73df;
+    }
+
+    .sidebar .nav-link {
+        color: rgba(255, 255, 255, .8);
+    }
+
+    .sidebar .nav-link:hover {
+        color: #fff;
+    }
+
+    .main-content {
+        background: #f8f9fc;
+    }
+    </style>
+<head>
     <!-- Meta Tag -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="copyright" content="pavilan" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
     <!-- Title -->
     <title>Disha - Disha Neuropsychiatry Centre</title>
@@ -23,9 +80,8 @@
 
     <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
-      rel="stylesheet"
-    />
+        href="https://fonts.googleapis.com/css?family=Poppins:200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;display=swap"
+        rel="stylesheet" />
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
@@ -47,7 +103,7 @@
     <link rel="stylesheet" href="css/magnific-popup.css" />
 
     <!-- Disha CSS -->
-    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
 
@@ -55,116 +111,52 @@
     <link rel="stylesheet" href="css/color/color1.css" />
 
     <link rel="stylesheet" id="colors" />
-   
-  </head>
-  <body>
-  <audio  autoplay loop class="invisible position-absolute">
-    <source src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" type="audio/mp3" />
-    Your browser does not support the audio element.
-</audio>
-    <!-- Preloader -->
-    <div class="preloader">
-      <div class="loader">
-        <div class="loader-outter"></div>
-        <div class="loader-inner"></div>
-
-        <div class="indicator">
-          <svg width="16px" height="12px">
-            <polyline id="back" points="1 6 4 6 6 11 10 1 12 6 15 6"></polyline>
-            <polyline
-              id="front"
-              points="1 6 4 6 6 11 10 1 12 6 15 6"
-            ></polyline>
-          </svg>
-        </div>
-      </div>
-    </div>
-    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 
 
+</head>
 
-    <!-- Header Area -->
-    <header class="header">
-      <!-- Topbar -->
-      <div class="topbar">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-6 col-md-5 col-12">
-                 
-            </div>
-            <div class="col-lg-6 col-md-7 col-12">
-              <!-- Top Contact -->
-              <ul class="top-contact">
-                <li><i class="fa fa-phone"></i>+91- 084210 25285</li>
-                <li>
-                  <i class="fa fa-envelope"></i
-                  ><a href="mailto:dsingh66@gmail.com"
-                    >dsingh66@gmail.com</a
-                  >
-                </li>
-              </ul>
-              <!-- End Top Contact -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Topbar -->
-      <!-- Header Inner -->
-      <div class="header-inner">
-        <div class="container">
-          <div class="inner">
-            <div class="row align-items-center ">
-              <div class="col-lg-1 col-md-3 col-12">
-                <!-- Start Logo -->
-                <div class="logo p-1 d-lg-block d-md-block d-none">
-                  <a href="index.php"><img src="img/logo.png" alt="#" /></a>
-                </div>
-                <!-- End Logo -->
-                 <div class="row d-lg-none d-md-none d-flex">
-                  <div class="col-2 mt-2"><a href="index.php"><img src="img/logo.png" alt="#" /></a></div>
-                  <div class="col-9 m-auto"><div class="mobile-nav">
-                  </div></div>
-                 </div>
-                <!-- Mobile Nav -->
-                
-                <!-- End Mobile Nav -->
-              </div>
-              <div class="col-lg-2"></div>
-              <div class="col-lg-7 col-md-9 col-12">
-                <!-- Main Menu -->
-                <div class="main-menu">
-                  <nav class="navigation">
-                    <ul class="nav menu">
-                      <li class="">
-                        <a href="index.php">Home </a>
-                      </li>
-                      <li><a href="contactdata.php">Contact</a></li>
-                      <li><a href="appointmentdata.php">Appointment</a></li>
-                       
-                      <!-- <li><a href="service.php">Service</a></li>
-                       
-                      <li><a href="blog-grid.php">Blog Grid</a></li>
-                       
-                      <li><a href="contact.php">Contact Us</a></li> -->
+<body>
+<div class="col-md-2 sidebar p-0">
+                <div class="d-flex flex-column p-3">
+                    <h4 class="text-white text-center mb-4">Admin Panel</h4>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.php">
+                                <i class="fas fa-tachometer-alt me-2"></i> Dashboard
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="appointmentdata.php">
+                                <i class="fas fa-calendar-check me-2"></i> Appointments
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctors.php">
+                                <i class="fas fa-user-md me-2"></i> Doctors
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="patients.php">
+                                <i class="fas fa-users me-2"></i> Patients
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contactdata.php">
+                                <i class="fas fa-envelope me-2"></i> Contact Messages
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="auth.php">
+                                <i class="fas fa-sign-out-alt me-2"></i> Logout
+                            </a>
+                        </li>
                     </ul>
-                  </nav>
                 </div>
-                <!--/ End Main Menu -->
-              </div>
-              <div class="col-lg-2 col-12">
-                <div class="get-quote">
-                  <a href="appointment.php" class="btn"> Appointment</a>
-                </div>
-              </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!--/ End Header Inner -->
-    </header>
-    
-   
-    
+
+
+
 
 
 

@@ -11,11 +11,8 @@
               <div class="single-widget category">
                 <h3 class="title">Blog Categories</h3>
                 <ul class="categor-list">
-                  <li><a href="#">Men's Apparel</a></li>
-                  <li><a href="#">Women's Apparel</a></li>
-                  <li><a href="#">Bags Collection</a></li>
-                  <li><a href="#">Accessories</a></li>
-                  <li><a href="#">Sun Glasses</a></li>
+                  <li><a href="#">Health</a></li>
+                  
                 </ul>
               </div>
               <!--/ End Single Widget -->
@@ -89,13 +86,13 @@
               <div class="single-widget side-tags">
                 <h3 class="title">Tags</h3>
                 <ul class="tag">
-                  <li><a href="#">business</a></li>
-                  <li><a href="#">wordpress</a></li>
-                  <li><a href="#">html</a></li>
-                  <li><a href="#">multipurpose</a></li>
-                  <li><a href="#">education</a></li>
-                  <li><a href="#">template</a></li>
-                  <li><a href="#">Ecommerce</a></li>
+                  <li><a href="#">neuropsychology </a></li>
+                  <li><a href="#">neuroscience </a></li>
+                  <li><a href="#">focus </a></li>
+                  <li><a href="#">neurology </a></li>
+                  <li><a href="#">neurotherapy </a></li>
+                  <li><a href="#">brainlove </a></li>
+                 
                 </ul>
               </div>
               <!--/ End Single Widget -->
